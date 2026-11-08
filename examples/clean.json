@@ -1,0 +1,22 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "server": {
+    "host": "localhost",
+    "port": 8080
+  },
+  "database": {
+    "host": "db.local",
+    "port": 5432
+  },
+  "features": [
+    {
+      "name": "search",
+      "enabled": true
+    },
+    {
+      "name": "export",
+      "enabled": false
+    }
+  ]
+}
